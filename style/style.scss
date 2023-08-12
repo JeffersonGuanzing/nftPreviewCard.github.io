@@ -43,14 +43,13 @@ body {
             width: 100%;
             opacity: 0;
             transition: .3s ease;
-            background: hsl(178, 100%, 50%);
 
             &:hover {
-                opacity: 0.5;
+                opacity: 1;
             }
 
             .icon {
-                color: hsl(178, 100%, 50%);
+                color: white;
                 font-size: 100px;
                 position: absolute;
                 top: 50%;
