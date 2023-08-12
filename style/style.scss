@@ -45,7 +45,8 @@ body {
             transition: .3s ease;
 
             &:hover {
-                opacity: 1;
+                background: hsl(178, 100%, 50%);
+                opacity: 0.5;
             }
 
             .icon {
