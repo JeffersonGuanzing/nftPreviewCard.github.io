@@ -33,6 +33,7 @@ body {
   height: 260px;
 }
 .card .container .overlay {
+  background: hsl(178, 100%, 50%);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -45,7 +46,7 @@ body {
 }
 .card .container .overlay:hover {
   background: hsl(178, 100%, 50%);
-  opacity: 0.5;
+  opacity: 1;
 }
 .card .container .overlay .icon {
   color: white;
