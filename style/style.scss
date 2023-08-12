@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(215, 51%, 70%);
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 0.5em;
+    padding: 1em;
+
+    .container {
+        position: relative;
+        width: 100%;
+    
+        .logo {
+            border-radius: 0.5em;
+            width: 100%;
+            height: 260px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            .icon {
+                color: white;
+                font-size: 100px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            .fa-eye:hover {
+                color: #eee;
+            }
+        }
+    }
+
+   .hero {
+    margin: 0 auto;
+    width: 240px;
+   }
+
+   .title {
+    margin: 5px auto;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: .5em;
+    color: hsl(0, 0%, 100%);
+
+    &:hover {
+        color: hsl(178, 100%, 50%);
+    }
+   }
+
+   .description {
+    font-size: 18px;
+    font-weight: 300;
+   }
+
+   .row {
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+        .col {
+            display: flex;
+            img {
+                margin-right: .5em;
+            }
+            .value {
+                color: hsl(178, 100%, 50%);
+            }
+        }
+   }
+
+   .line {
+    background: hsl(215, 51%, 70%);
+    height: 1px;
+    width: 100%;
+    margin: 1em auto;
+   }
+   
+   .subhead {
+    display: flex;
+
+    span {
+        color: hsl(0, 0%, 100%);
+        &:hover {
+            color: hsl(178, 100%, 50%);
+        }
+    }
+    
+    .avatar {
+        height: 30px;
+        margin-right: 1em;
+
+    }
+   }
+}
+
