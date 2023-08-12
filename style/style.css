@@ -33,7 +33,7 @@ body {
   height: 260px;
 }
 .card .container .overlay {
-  background: hsl(178, 100%, 50%);
+  border-radius: 0.5em;
   position: absolute;
   top: 0;
   bottom: 0;

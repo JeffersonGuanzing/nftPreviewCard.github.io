@@ -34,7 +34,7 @@ body {
         }
 
         .overlay {
-            background: hsl(178, 100%, 50%);
+            border-radius: 0.5em;
             position: absolute;
             top: 0;
             bottom: 0;
@@ -51,7 +51,7 @@ body {
             }
 
             .icon {
-
+                
                 color: white;
                 font-size: 100px;
                 position: absolute;
