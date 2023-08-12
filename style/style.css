@@ -47,7 +47,7 @@ body {
 }
 .card .container .overlay:hover {
   background: hsl(178, 100%, 50%);
-  opacity: 1;
+  opacity: 0.5;
 }
 .card .container .overlay .icon {
   color: white;
