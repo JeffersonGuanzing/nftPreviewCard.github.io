@@ -42,12 +42,13 @@ body {
   width: 100%;
   opacity: 0;
   transition: 0.3s ease;
+  background: hsl(178, 100%, 50%);
 }
 .card .container .overlay:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 .card .container .overlay .icon {
-  color: white;
+  color: hsl(178, 100%, 50%);
   font-size: 100px;
   position: absolute;
   top: 50%;
